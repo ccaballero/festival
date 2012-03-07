@@ -1,0 +1,31 @@
+* {
+    margin: 0pt 0pt;
+    padding: 0pt 0pt;
+}
+
+#desktop {
+    background: #FFFFFF url('http://festival.local/media/background/debian.png') no-repeat fixed right bottom;
+    position: relative;
+    overflow: hidden;
+}
+
+.information_icon { background: url('http://festival.local/media/16x16/information.png') no-repeat; }
+.preferences_icon { background: url('http://festival.local/media/16x16/vcard.png') no-repeat; }
+.preferences_photografy { background: url('http://festival.local/media/16x16/photo_add.png') no-repeat; }
+
+.avatar img {
+    position: absolute;
+}
+
+.avatar .details {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    bottom: 2px;
+    left: 2px;
+}
+
+.status_online { background: url('http://festival.local/media/16x16/status_online.png') no-repeat; }
+.status_offline { background: url('http://festival.local/media/16x16/status_offline.png') no-repeat; }
+.status_away { background: url('http://festival.local/media/16x16/status_away.png') no-repeat; }
+.status_busy { background: url('http://festival.local/media/16x16/status_busy.png') no-repeat; }
